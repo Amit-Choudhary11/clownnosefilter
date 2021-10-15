@@ -1,0 +1,55 @@
+body{
+    background-position: center;
+}
+
+.button{
+margin-top: 20px;
+padding: 20px;
+width: 20%;
+font-size: 20;
+font-family: 'Pacifico', cursive;
+}
+
+.btn-success:hover{
+background-color: aqua;
+}
+
+.btn-success{
+    font-family: 'Pacifico', cursive;
+}
+
+canvas{
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+from{box-shadow: 1px 1px 38px rgb(255, 0, 0);}
+to{box-shadow: 1px 1px 38px rgb(255, 115, 0);}
+
+from{box-shadow: 1px 1px 38px rgb(255, 115, 0);}
+to{box-shadow: 1px 1px 38px rgb(238, 255, 0);}
+
+
+from{box-shadow: 1px 1px 38px rgb(238, 255, 0);}
+to{box-shadow: 1px 1px 38px rgb(0, 255, 13);}
+
+from{box-shadow: 1px 1px 38px rgb(0, 255, 13);}
+to{box-shadow: 1px 1px 38px rgb(0, 255, 221);}
+
+
+from{box-shadow: 1px 1px 38px rgb(0, 255, 221);}
+to{box-shadow: 1px 1px 38px rgb(47, 0, 255);}
+
+from{box-shadow: 1px 1px 38px rgb(47, 0, 255);}
+to{box-shadow: 1px 1px 38px rgb(98, 0, 255);}
+
+from{box-shadow: 1px 1px 38px rgb(98, 0, 255);}
+to{box-shadow: 1px 1px 38px rgb(255, 0, 157);}
+
+
+from{box-shadow: 1px 1px 38px rgb(255, 0, 157);}
+to{box-shadow: 1px 1px 38px rgb(255, 0, 0);}
+}
